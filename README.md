@@ -26,6 +26,13 @@ Usage
     ATMEL 24C08 EEPROM microchip
     Jumper wires for connecting the Arduino board to the EEPROM
 
+# Wiring circuit
+
+![EEPROM](circuit.png)
+
+To ensure seamless functionality, it is imperative to ground the NC (No Connection), A1, A2, and GND pins. The A1 and A2 pins, when grounded, serve to define the address configuration of the microchip. Furthermore, the SCL (Serial Clock) and SDA (Serial Data) pins must be meticulously connected to their corresponding counterparts on the Arduino board, ensuring a precise alignment of communication channels.
+
+
 # Additional Notes
 
     This sketch assumes that the ATMEL 24C08 EEPROM is connected to the default I2C address 0x50. If you have configured a different address, modify the EEPROM_ADDRESS constant in the sketch accordingly.
