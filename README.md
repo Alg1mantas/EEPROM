@@ -1,5 +1,4 @@
-This repository contains an Arduino sketch for reading data from an ATMEL 24C08 EEPROM microchip using an Arduino board and the Wire library.
-Overview
+#Overview
 
 The Arduino sketch provided here allows you to read data stored in an ATMEL 24C08 EEPROM microchip. This microchip is a serial EEPROM with a capacity of 1024 bytes organized in 128 pages of 8 bytes each. The sketch retrieves data byte by byte from the EEPROM and prints it to the Serial Monitor.
 How it Works
