@@ -11,14 +11,14 @@ Usage
 
 # To use this sketch, follow these steps:
 
-    Connect your Arduino board to the ATMEL 24C08 EEPROM microchip using the I2C protocol. Ensure that the SDA and SCL pins of the EEPROM are connected to the corresponding pins on the Arduino board.
-    Upload the provided sketch to your Arduino board using the Arduino IDE.
-    Open the Serial Monitor at a baud rate of 9600 to view the output.
-    The sketch will read each byte of data stored in the EEPROM and print the address along with its corresponding value.
+Connect your Arduino board to the ATMEL 24C08 EEPROM microchip using the I2C protocol. Ensure that the SDA and SCL pins of the EEPROM are connected to the corresponding pins on the Arduino board.
+Upload the provided sketch to your Arduino board using the Arduino IDE.
+Open the Serial Monitor at a baud rate of 9600 to view the output.
+The sketch will read each byte of data stored in the EEPROM and print the address along with its corresponding value.
 
 # Dependencies
 
-    Wire Library: This sketch relies on the Wire library for I2C communication. Ensure that you include the Wire.h library in your Arduino sketch.
+Wire Library: This sketch relies on the Wire library for I2C communication. Ensure that you include the Wire.h library in your Arduino sketch.
 
 # Hardware requirements
 
