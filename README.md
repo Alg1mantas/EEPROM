@@ -6,8 +6,11 @@ The Arduino sketch provided here allows you to read data stored in an ATMEL 24C0
 
 The sketch initializes communication with the EEPROM using the Wire library, which facilitates I2C communication on the Arduino board. It then iterates through the memory addresses from 0 to 1023, reading each byte of data stored in the EEPROM and printing the address and corresponding value to the Serial Monitor.
 
+
+![EEPROM](output.jpg)
+
 The read() function is responsible for reading a byte of data from the EEPROM at a specified memory address. It begins by initiating a transmission to the EEPROM with the specified address, writes the data address to be read, and requests data from that address. If data is available, it reads and returns the byte; otherwise, it returns 0.
-Usage
+
 
 # To use this sketch, follow these steps:
 
